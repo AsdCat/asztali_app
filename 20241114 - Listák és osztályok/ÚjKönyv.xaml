@@ -1,0 +1,18 @@
+﻿<Window x:Class="_20241114___Listák_és_osztályok.ÚjKönyv"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_20241114___Listák_és_osztályok"
+        mc:Ignorable="d"
+        Title="ÚjKönyv" Height="350" Width="300" WindowStartupLocation="CenterOwner" 
+        WindowStyle="ToolWindow" FontSize="20">
+    <StackPanel>
+        <Label Content="Szerző" Margin="10"/>
+        <TextBox Text="" Name="Szerző" Margin="10"/>
+        <Label Content="Cím"  Margin="10"/>
+        <TextBox Text="" Name="Cím"  Margin="10"/>
+        <Button Content="Mentés" Margin="10" Height="30" Click="Mentés_Click"/>
+        <Button Content="Mégse" Margin="10" Height="30" Click="Mégse_Click"/>
+    </StackPanel>
+</Window>
